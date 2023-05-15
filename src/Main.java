@@ -42,7 +42,7 @@ public class Main
         int myFavoriteNumber = 22;
         String myFavSnack = "Goldfish";
 
-        System.out.println("My favorite number is " + myFavoriteNumber + " and my favorite snack is " + myFavSnack + ".");
+        System.out.println("myFavoriteNumber is " + myFavoriteNumber + " and myFavSnack is " + myFavSnack + ".");
 
     }
 }

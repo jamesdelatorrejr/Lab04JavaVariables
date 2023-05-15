@@ -1,17 +1,48 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int intOperandA = 1;
+        int intOperandB = 7;
+        int intSum = 0;
+        int intProduct = 17;
+        int intDifference = 12;
+        int intQuotient = 69;
+        int intModulo = 5;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        double doubleOperandA = 3.50;
+        double doubleOperandB = 5.30;
+        double doubleSum = 17.43;
+        double doubleProduct = 12.21;
+        double doubleDifference = 99.11;
+        double doubleQuotient = 75.22;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        intSum = intOperandA + intOperandB;
+        intProduct = intOperandA * intOperandB;
+        intDifference = intOperandA - intOperandB;
+        intQuotient = intOperandA / intOperandB;
+        intModulo = intOperandA % intOperandB;
+
+        doubleSum = doubleOperandA + doubleOperandB;
+        doubleProduct = doubleOperandA * doubleOperandB;
+        doubleDifference = doubleOperandA - doubleOperandB;
+        doubleQuotient = doubleOperandA / doubleOperandB;
+
+        System.out.println("Your Sum of ints " + intOperandA + " and " + intOperandB + " is " + intSum);
+        System.out.println("Your Product of ints " + intOperandA + " and " + intOperandB + " is " + intProduct);
+        System.out.println("Your Difference of ints " + intOperandA + " and " + intOperandB + " is " + intDifference);
+        System.out.println("Your Quotient of ints " + intOperandA + " and " + intOperandB + " is " + intQuotient);
+        System.out.println("Your Remainder of ints " + intOperandA + " and " + intOperandB + " is " + intModulo);
+
+        System.out.println("Your Sum of doubles " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+        System.out.println("Your Product of doubles " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+        System.out.println("Your Difference of doubles " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+        System.out.println("Your Quotient of doubles " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+
+        int myFavoriteNumber = 22;
+        String myFavSnack = "Goldfish";
+
+        System.out.println("My favorite number is " + myFavoriteNumber + " and my favorite snack is " + myFavSnack + ".");
+
     }
 }
